@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+	<student number="s1">
+		<name id="itcast">zhangsan</name>
+		<age>11</age>
+		<sex>male</sex>
+	</student>
+
+	<student number="s2">
+		<name>lisi</name>
+		<age>33</age>
+		<sex>female</sex>
+	</student>
+</students>

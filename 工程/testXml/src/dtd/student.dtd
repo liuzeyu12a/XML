@@ -1,0 +1,7 @@
+<!--+代表必须出现一次或多次 ，*代表出现出现0次或多次-->
+<!ELEMENT students (student+) >
+<!ELEMENT student (name,age,sex)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ATTLIST student number ID #REQUIRED>
